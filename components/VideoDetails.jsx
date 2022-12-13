@@ -42,7 +42,7 @@ function VideoDetails({ id }) {
       {ld ? (
         <SkeletonLoader2 />
       ) : (
-        <div className="w-[700px] sm:w-full text-slate-700">
+        <div className="w-full text-slate-700">
           <div className="w-full p-1 flex items-center justify-between">
             <div>
               <p className="text-lg">{details?.snippet.title}</p>
