@@ -46,7 +46,7 @@ const Nav = () => {
             </h1>
           </div>
         </Link>
-        <div className="w-[60%] sm:w-[65%] border flex shadow-md  items-center rounded-full">
+        <div className="w-[60%] sm:w-[65%] border flex shadow-md  items-center rounded-full ml-[-10px] sm:ml-0">
           <input
             ref={searchRef}
             className="flex-grow shadow-inner  sm:p-2 border outline-none rounded-full "
@@ -60,7 +60,7 @@ const Nav = () => {
           <Button
             type="submit"
             onClick={searchHAnseler}
-            className={` hidden sm:inline-flex font-bold transition duration-300 text-slate-800 ${
+            className={` !hidden sm:inline-flex font-bold transition duration-300 text-slate-800 ${
               term ? "md:inline-flex" : "hidden"
             }`}
           >
@@ -72,7 +72,7 @@ const Nav = () => {
         </div>
         <div className={`w-[5%] flex items-center justify-around `}>
           <Avatar
-            className="h-[20px] w-[20px] sm:h-[40px] sm:w-[40px]"
+            className="!h-[20px] !w-[20px] sm:h-![40px] sm:!w-[40px]"
             alt="ava"
             src={defaultAvater}
           />

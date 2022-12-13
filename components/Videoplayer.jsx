@@ -4,7 +4,7 @@ import VideoLOader from "./VideoLOader";
 
 function Videoplayer({ id }) {
   return (
-    <div className="w-full sm:w-[60%] ">
+    <div className="w-full sm:w-[60%] flex flex-col items-center ">
       <div className="sm:hidden">
         <ReactPlayer
           controls
