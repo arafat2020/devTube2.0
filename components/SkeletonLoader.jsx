@@ -4,7 +4,7 @@ function SkeletonLoader() {
   const Sklbox = () => {
     return (
       <div>
-        <Skeleton variant="rounded" className="w-[200px] h-[100px] sm:h-[130px] sm:w-[300px]"  />
+        <Skeleton variant="rounded" className="w-[200px] h-[300px] sm:h-[310px] sm:w-[300px]"  />
         <Skeleton variant="text" sx={{ fontSize: "1rem" }} />
         <Skeleton variant="text" sx={{ fontSize: "1rem" }} />
         <Skeleton variant="text" sx={{ fontSize: "10px",width:'90px' }} />
