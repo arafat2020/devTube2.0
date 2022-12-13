@@ -16,7 +16,7 @@ const Nav = () => {
   const router = useRouter();
 
   const searchHAnseler = async () => {
-    await ctx.setTerm("");
+    
     await ctx.setTerm(searchRef.current.value);
     router.push("/");
   };
