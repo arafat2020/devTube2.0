@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Sajetion from "../../components/Sajetion";
-import Videoplayer from "../../components/videoplayer.jsx";
+import Videoplayer from "../../components/Videoplayer";
 
 function Watch() {
   const router = useRouter();
