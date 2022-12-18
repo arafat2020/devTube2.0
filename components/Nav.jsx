@@ -72,7 +72,7 @@ const Nav = () => {
         </div>
         <div className={`w-[5%] flex items-center justify-around `}>
           <Avatar
-            className="!h-[20px] !w-[20px] sm:h-![40px] sm:!w-[40px]"
+            className="!h-[20px] !w-[20px] sm:!h-[40px] sm:!w-[40px]"
             alt="ava"
             src={defaultAvater}
           />

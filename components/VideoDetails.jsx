@@ -38,12 +38,12 @@ function VideoDetails({ id }) {
     getDetails();
   }, [id]);
   return (
-    <div>
+    <div className="w-full">
       {ld ? (
         <SkeletonLoader2 />
       ) : (
         <div className="w-full text-slate-700">
-          <div className="w-full p-1 flex items-center justify-between">
+          <div className="w-full p-1 sm:p-2 flex items-center justify-between">
             <div>
               <p className="text-lg">{details?.snippet.title}</p>
 

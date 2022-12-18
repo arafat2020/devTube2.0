@@ -81,6 +81,7 @@ export default function VIdeoBox() {
                   des={e.snippet.description}
                   title={e.snippet.title}
                   date={e.snippet.publishTime}
+                  cahnnel={e.snippet.channelTitle}
                 />
               </div>
             );
